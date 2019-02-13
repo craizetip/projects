@@ -5,20 +5,29 @@
 <html>
 <head>
     <title>Title</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<form method="post" action="/signUp">
-    <label for="name">User name
-        <input class="input-field" type="text" id="name" name="name">
-    </label>
-    <label for="birthDate">Birth date
-        <input class="input-field" type="text" id="birthDate" name="birthDate">
-    </label>
-    <label for="password">Password
-        <input class="input-field" type="password" id="password" name="password">
-    </label>
-    <input type="submit" value="Sign Up">
-</form>
+<div class="form-style-9">
+
+    <div class="form-style-9">
+        Ples SignUp
+    </div>
+    <form method="post" action="http://localhost:8080/jspEx_war/signUp">
+        <label for="name">User name
+            <input class="field-full" type="text" id="name" name="name">
+        </label>
+        <label for="birthDate">Birth date
+            <input class="field-full" type="text" id="birthDate" name="birthDate">
+        </label>
+        <label for="password">Password
+            <input class="field-full" type="password" id="password" name="password">
+        </label>
+        <input type="submit" value="Sign Up">
+    </form>
+
+</div>
+
 <table>
     <tr>
         <th>User name</th>
